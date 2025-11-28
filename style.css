@@ -1,0 +1,171 @@
+/* =============================
+   GLOBAL STYLE
+============================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f7f9f4;
+  color: #333;
+  overflow-x: hidden;
+}
+
+h2, h3, h4 {
+  font-family: "Satisfy", cursive;
+  color: #2f3e2f;
+}
+
+/* =============================
+   NAVBAR
+============================= */
+.navbar {
+  background: #d8e4d0 !important;
+}
+
+.navbar-brand {
+  font-family: "Parisienne", cursive;
+  font-size: 22px;
+  color: #2c3e2c !important;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #314231 !important;
+}
+
+.nav-link:hover {
+  color: #1a251a !important;
+}
+
+/* =============================
+   PEMBUKA (HOME)
+============================= */
+.pembuka {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  background: #e7f0e1;
+}
+
+.pembuka .judul {
+  font-family: "Parisienne", cursive;
+  color: #2f3e2f;
+}
+
+.pembuka img {
+  max-width: 220px;
+}
+
+/* =============================
+   AYAT & DOA (ABOUT)
+============================= */
+.doa {
+  padding: 60px 20px;
+  background: #f7f9f4;
+}
+
+.doajudul {
+  font-family: "Edu VIC WA NT Beginner", cursive;
+  color: #2e4a2e;
+  font-weight: bold;
+}
+
+/* =============================
+   PROFIL MEMPELAI
+============================= */
+.profil {
+  padding: 60px 20px;
+  text-align: center;
+  background: #e8f1e3;
+}
+
+.judulprofil {
+  font-size: 35px;
+  font-family: "Parisienne", cursive;
+  color: #304830;
+}
+
+.namacalon {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f3d2f;
+}
+
+.laki {
+  border: 5px solid #c6d6b9;
+  padding: 5px;
+}
+
+/* =============================
+   GALERI
+============================= */
+.galleri {
+  padding: 60px 20px;
+  background: #f7f9f4;
+}
+
+.judulgaleri {
+  font-size: 35px;
+  font-family: "Parisienne", cursive;
+  color: #304830;
+}
+
+.galleri img {
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+/* =============================
+   LOKASI
+============================= */
+.lokasi {
+  padding: 60px 20px;
+  background: #e8f1e3;
+}
+
+.judullokasi {
+  font-size: 32px;
+  font-family: "Parisienne", cursive;
+  color: #304830;
+}
+
+.lokasi a {
+  color: #2a4d2a;
+  text-decoration: none;
+}
+
+.lokasi a:hover {
+  color: #1c331c;
+}
+
+/* =============================
+   FOOTER / PENUTUP
+============================= */
+.footer {
+  background: #d8e4d0;
+  padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  color: #304830;
+  font-family: "Satisfy", cursive;
+  font-size: 22px;
+}
+
+/* AUDIO CONTROL FIX */
+audio {
+  width: 250px;
+  margin-bottom: 10px;
+  filter: drop-shadow(0px 3px 6px rgba(0,0,0,0.2));
+}
+
+/* SMOOTH IMAGE ANIMATION */
+img {
+  transition: 0.3s;
+}
+
+img:hover {
+  transform: scale(1.03);
+}
